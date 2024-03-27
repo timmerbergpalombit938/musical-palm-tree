@@ -1,0 +1,15 @@
+import random
+
+# 生成随机的循环条件
+condition = False
+
+# 模拟实现do-while循环
+while True:
+    # 执行循环体代码
+    
+    # 生成随机的循环条件
+    condition = random.choice([True, False])
+    
+    # 检查条件并决定是否继续循环
+    if not condition:
+        break
